@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.home{
+    display:flex;
+ 
+   
+        .navbar{
+             display:  block;
+             width: 28%;
+             height: 100hv;
+             background: slateblue;
+            
+             .navbarpart1{
+                 
+                       ul{
+                         list-style-type:none;
+                         margin: 0px;
+                         padding: 0px;
+                       
+                           a{
+                               display: block;
+                               padding-left: 100px;
+                               padding-top: 30px;
+                               margin: 0px;
+                                  
+                               font-size: 40px;
+                               text-align:  start;
+                               
+                               text-decoration: none;
+                               font-family: 'Tangerine', serif;
+                                 color: white;
+                                   
+                           }
+                         }
+                        }
+                        .navbarpart2{
+                            text-align: center;
+                            img{
+                                text-decoration: center;
+                                margin-top: 50px;
+                            }
+                            p{
+                                font-size: 50px;
+                            }
+                            
+                        }
+                    }
+                      
+                     
+
+       .bodyclass{ 
+        width:70%;
+       
+          .bodyclasspart2, .bodyclasspart3, .bodyclasspart4, .bodyclasspart5, .bodyclasspart6, .bodyclasspart7{
+            margin-top: 100px;
+            margin-left: 15px;
+        }
+        h1{
+            color: slateblue;
+            font-size: 60px;
+            font-family: 'Tangerine', serif;
+        }
+        
+           .bodyclasspart1{
+               width:100%;
+                  img{
+                     width: 100%;
+                   }
+             }
+             .bodyclasspart2{
+             .bodyclasspart2a{
+                font-size: 20px;
+            }
+        }
+             .bodyclasspart3{
+                 display: flex;
+                 .bodyclasspart3a{
+                     margin-right: 0px;
+                     
+                 }
+                 .bodyclasspart3b{
+                    input{
+                      width: 150px;
+                      height: 50px;
+                      background: slateblue;
+                      color: black;
+                      border: 1px  slateblue  solid ;
+                       
+                      font-size: 20px;
+                }
+               
+              }
+             
+            }
+           .bodyclasspart4{
+               img{
+                   width: 19.5%;
+               }
+           }
+           .bodyclasspart5{
+            img{
+                width: 33%;
+            }
+        }
+        .bodyclasspart6{
+            img{
+                width: 24.5%;
+            }
+        }
+        .bodyclasspart7{
+              display: flex;
+             
+           .bodyclasspart71{
+                 display: block;
+                      .nameinput,.emailinput{
+                         
+                          input{
+                              width: 500px;
+                              height: 30px;
+                              border: 1px  slateblue  solid ;
+                          }
+                              ::placeholder {  
+                                color: slateblue;
+                                opacity: 1;   
+                                padding-left: 10px;
+                                font-size: 20px;
+                              
+                                font-size: 20px;
+                              }
+                          }
+                      
+                      .messag{
+                          textarea{
+                              width: 495px;
+                              height: 300px;
+                              color: slateblue; 
+                              border: 1px  slateblue  solid ;
+                          }
+                          ::placeholder {  
+                            color: slateblue;
+                            opacity: 1;  
+                            padding-left: 10px;
+                            font-size: 20px; 
+                             
+                            font-size: 20px;
+                          }
+                      }
+                      .signinput{
+                          input{
+                              width: 100px;
+                              height: 50px;
+                              background: slateblue;
+                              color: black;
+                              border: 1px  slateblue  solid ;
+                              margin-top: 20px;
+                              
+                              font-size: 20px;
+                                
+                          }
+                      }
+                      
+                   }         
+                   .bodyclasspart71{
+                       color: slateblue;
+                   } 
+                   
+     }         
+    
+    
+        .finily{
+            margin: 100px;
+        }       
+          
+
+    }
+}
+@media  only screen and (max-width: 768px) {
+    
+}
+ 
+
+        

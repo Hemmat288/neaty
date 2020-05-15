@@ -1,0 +1,214 @@
+body {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .navbar {
+  display: block;
+  width: 28%;
+  height: 100hv;
+  background: slateblue;
+}
+
+.home .navbar .navbarpart1 ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home .navbar .navbarpart1 ul a {
+  display: block;
+  padding-left: 100px;
+  padding-top: 30px;
+  margin: 0px;
+  font-size: 40px;
+  text-align: start;
+  text-decoration: none;
+  font-family: 'Tangerine', serif;
+  color: white;
+}
+
+.home .navbar .navbarpart2 {
+  text-align: center;
+}
+
+.home .navbar .navbarpart2 img {
+  -webkit-text-decoration: center;
+          text-decoration: center;
+  margin-top: 50px;
+}
+
+.home .navbar .navbarpart2 p {
+  font-size: 50px;
+}
+
+.home .bodyclass {
+  width: 70%;
+}
+
+.home .bodyclass .bodyclasspart2, .home .bodyclass .bodyclasspart3, .home .bodyclass .bodyclasspart4, .home .bodyclass .bodyclasspart5, .home .bodyclass .bodyclasspart6, .home .bodyclass .bodyclasspart7 {
+  margin-top: 100px;
+  margin-left: 15px;
+}
+
+.home .bodyclass h1 {
+  color: slateblue;
+  font-size: 60px;
+  font-family: 'Tangerine', serif;
+}
+
+.home .bodyclass .bodyclasspart1 {
+  width: 100%;
+}
+
+.home .bodyclass .bodyclasspart1 img {
+  width: 100%;
+}
+
+.home .bodyclass .bodyclasspart2 .bodyclasspart2a {
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .bodyclass .bodyclasspart3 .bodyclasspart3a {
+  margin-right: 0px;
+}
+
+.home .bodyclass .bodyclasspart3 .bodyclasspart3b input {
+  width: 150px;
+  height: 50px;
+  background: slateblue;
+  color: black;
+  border: 1px  slateblue  solid;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart4 img {
+  width: 19.5%;
+}
+
+.home .bodyclass .bodyclasspart5 img {
+  width: 33%;
+}
+
+.home .bodyclass .bodyclasspart6 img {
+  width: 24.5%;
+}
+
+.home .bodyclass .bodyclasspart7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 {
+  display: block;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .nameinput input, .home .bodyclass .bodyclasspart7 .bodyclasspart71 .emailinput input {
+  width: 500px;
+  height: 30px;
+  border: 1px  slateblue  solid;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .nameinput ::-webkit-input-placeholder, .home .bodyclass .bodyclasspart7 .bodyclasspart71 .emailinput ::-webkit-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .nameinput :-ms-input-placeholder, .home .bodyclass .bodyclasspart7 .bodyclasspart71 .emailinput :-ms-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .nameinput ::-ms-input-placeholder, .home .bodyclass .bodyclasspart7 .bodyclasspart71 .emailinput ::-ms-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .nameinput ::placeholder, .home .bodyclass .bodyclasspart7 .bodyclasspart71 .emailinput ::placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .messag textarea {
+  width: 495px;
+  height: 300px;
+  color: slateblue;
+  border: 1px  slateblue  solid;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .messag ::-webkit-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .messag :-ms-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .messag ::-ms-input-placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .messag ::placeholder {
+  color: slateblue;
+  opacity: 1;
+  padding-left: 10px;
+  font-size: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 .signinput input {
+  width: 100px;
+  height: 50px;
+  background: slateblue;
+  color: black;
+  border: 1px  slateblue  solid;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.home .bodyclass .bodyclasspart7 .bodyclasspart71 {
+  color: slateblue;
+}
+
+.home .bodyclass .finily {
+  margin: 100px;
+}
+/*# sourceMappingURL=main.css.map */
